@@ -1,0 +1,50 @@
+html, body 
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+div.share-icons
+{
+    text-align: right;
+    padding: .75vh 1vw .75vh 0vw;
+}
+
+.fa 
+{
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa:hover 
+{
+    opacity: 0.9;
+}
+
+/* Facebook */
+.fa-facebook 
+{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Twitter */
+.fa-twitter 
+{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Reddit */
+.fa-reddit 
+{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
