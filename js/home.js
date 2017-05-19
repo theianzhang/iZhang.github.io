@@ -8,230 +8,84 @@ function initMap()
 		},
 		styles:
 		[
+		{
+			"featureType": "administrative",
+			"elementType": "labels.text.fill",
+			"stylers": [
 			{
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"color": "#f5f5f5"
-				}
-				]
-			},
-			{
-				"elementType": "labels",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"elementType": "labels.icon",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"elementType": "labels.text.fill",
-				"stylers": [
-				{
-					"color": "#616161"
-				}
-				]
-			},
-			{
-				"elementType": "labels.text.stroke",
-				"stylers": [
-				{
-					"color": "#f5f5f5"
-				}
-				]
-			},
-			{
-				"featureType": "administrative",
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"featureType": "administrative.land_parcel",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"featureType": "administrative.land_parcel",
-				"elementType": "labels.text.fill",
-				"stylers": [
-				{
-					"color": "#bdbdbd"
-				}
-				]
-			},
-			{
-				"featureType": "administrative.neighborhood",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"featureType": "poi",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"featureType": "poi",
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"color": "#eeeeee"
-				}
-				]
-			},
-			{
-				"featureType": "poi",
-				"elementType": "labels.text.fill",
-				"stylers": [
-				{
-					"color": "#757575"
-				}
-				]
-			},
-			{
-				"featureType": "poi.park",
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"color": "#e5e5e5"
-				}
-				]
-			},
-			{
-				"featureType": "poi.park",
-				"elementType": "labels.text.fill",
-				"stylers": [
-				{
-					"color": "#9e9e9e"
-				}
-				]
-			},
-			{
-				"featureType": "road",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"featureType": "road",
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"color": "#ffffff"
-				}
-				]
-			},
-			{
-				"featureType": "road",
-				"elementType": "labels.icon",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"featureType": "road.arterial",
-				"elementType": "labels.text.fill",
-				"stylers": [
-				{
-					"color": "#757575"
-				}
-				]
-			},
-			{
-				"featureType": "road.highway",
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"color": "#dadada"
-				}
-				]
-			},
-			{
-				"featureType": "road.highway",
-				"elementType": "labels.text.fill",
-				"stylers": [
-				{
-					"color": "#616161"
-				}
-				]
-			},
-			{
-				"featureType": "road.local",
-				"elementType": "labels.text.fill",
-				"stylers": [
-				{
-					"color": "#9e9e9e"
-				}
-				]
-			},
-			{
-				"featureType": "transit",
-				"stylers": [
-				{
-					"visibility": "off"
-				}
-				]
-			},
-			{
-				"featureType": "transit.line",
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"color": "#e5e5e5"
-				}
-				]
-			},
-			{
-				"featureType": "transit.station",
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"color": "#eeeeee"
-				}
-				]
-			},
-			{
-				"featureType": "water",
-				"elementType": "geometry",
-				"stylers": [
-				{
-					"color": "#c9c9c9"
-				}
-				]
-			},
-			{
-				"featureType": "water",
-				"elementType": "labels.text.fill",
-				"stylers": [
-				{
-					"color": "#9e9e9e"
-				}
-				]
+				"color": "#444444"
 			}
+			]
+		},
+		{
+			"featureType": "landscape",
+			"elementType": "all",
+			"stylers": [
+			{
+				"color": "#f2f2f2"
+			}
+			]
+		},
+		{
+			"featureType": "poi",
+			"elementType": "all",
+			"stylers": [
+			{
+				"visibility": "off"
+			}
+			]
+		},
+		{
+			"featureType": "road",
+			"elementType": "all",
+			"stylers": [
+			{
+				"saturation": -100
+			},
+			{
+				"lightness": 45
+			}
+			]
+		},
+		{
+			"featureType": "road.highway",
+			"elementType": "all",
+			"stylers": [
+			{
+				"visibility": "simplified"
+			}
+			]
+		},
+		{
+			"featureType": "road.arterial",
+			"elementType": "labels.icon",
+			"stylers": [
+			{
+				"visibility": "off"
+			}
+			]
+		},
+		{
+			"featureType": "transit",
+			"elementType": "all",
+			"stylers": [
+			{
+				"visibility": "off"
+			}
+			]
+		},
+		{
+			"featureType": "water",
+			"elementType": "all",
+			"stylers": [
+			{
+				"color": "#46bcec"
+			},
+			{
+				"visibility": "on"
+			}
+			]
+		}
 		]
 
 	});
@@ -256,7 +110,7 @@ function initMap()
     {
     	google.maps.event.addListener(markers[i], 'click', function() {
     		window.location.href = this.url;
-		});
+    	});
     }
 }
 
@@ -264,64 +118,64 @@ var locations = [{
 		//guinness storehouse dublin
 		lat: 53.3419,
 		lng: -6.2867,
-		url: "/posts/guinness"
+		url: "2016/08/01/guinness-factory.html"
 	},
 	{
 		//trinity college
 		lat: 53.343889,
 		lng: -6.256806,
-		url: "/posts/guinness"
+		url: "2016/08/01/trinity-college.html"
 	},
 	{
 		//cliffs of moher
 		lat: 52.9719,
 		lng: -9.4265,
-		url: "/posts/guinness"
+		url: "2016/08/01/cliffs-of-moher.html"
 	},
 	{
 		//seattle public library
 		lat: 47.6067,
 		lng: -122.3325,
-		url: "/posts/guinness"
+		url: "2017/05/18/seattle-public-library.html"
 	},
 	{
 		//pike place market
 		lat: 47.6101,
 		lng: -122.3421,
-		url: "/posts/guinness"
+		url: "2017/05/18/pike-place-market.html"
 	},
 	{
 		//tate modern
 		lat: 51.5074,
 		lng: 0.1001,
-		url: "/posts/guinness"
+		url: "2016/11/01/tate-modern.html"
 	}
-]
+	]
 
-window.fbAsyncInit = function() 
-{
-	FB.init({
-		appId      : '1685896151707691',
-		xfbml      : true,
-		version    : 'v2.8'
-	});
-	FB.AppEvents.logPageView();
-
-	document.getElementById('fb-share-button').onclick = function() 
+	window.fbAsyncInit = function() 
 	{
-		FB.ui({
-			method: 'share',
-			display: 'popup',
-			href: 'https://icz.io',
-		}, function(response){});
-	}
-};
+		FB.init({
+			appId      : '1685896151707691',
+			xfbml      : true,
+			version    : 'v2.8'
+		});
+		FB.AppEvents.logPageView();
 
-(function(d, s, id)
-{
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) {return;}
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/en_US/sdk.js";
-	fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+		document.getElementById('fb-share-button').onclick = function() 
+		{
+			FB.ui({
+				method: 'share',
+				display: 'popup',
+				href: 'https://icz.io',
+			}, function(response){});
+		}
+	};
+
+	(function(d, s, id)
+	{
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
