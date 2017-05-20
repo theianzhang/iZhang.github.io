@@ -8,7 +8,7 @@ The Guinness factory in Dublin is a legitimate part of the Irish experience. I s
 
 The storehouse is seven floors. Yes, seven. On the seventh floor, for the price of admission, they pull you a pint. 
 
-They clearly trust you to act like an adult, and not do things like go around to your co-workers and belligerently ask them: "Are you using that ticket, because if not I'd like to have another pint." Then ending up handing in six tickets to the lady pulling the brews. Whatever, I'm in Dublin, losers.
+They clearly trust you to act like an adult, and not do things like go around to your co-workers and belligerently ask them: "Are you using that ticket, because if not I'd like to have another pint." Then ending up handing in six tickets to the lady pulling the brews. Whatever, I'm in Dublin.
 
 Here's something I learned: the "Guinness two pull" thing that dude with the flannel and beard told you about at the bar last week is both true and not true. The idea is that you need to pour the first bit at a 45 degree angle, wait the fabled 80 or so seconds for it to "settle", then top off the rest delicately. While people cite the 75% nitrogen and 25% carbon dioxide ratio (most beers are exclusively pressurized with 100% carbon dioxide) as the reason, that's actually all taken care of at storage time. A bartender who knows her way around the ruby-red release valve is going to pour the right ratio, it's impossible not to. 
 

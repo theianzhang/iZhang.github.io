@@ -1,0 +1,66 @@
+html, body 
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#map 
+{
+	height: 50vh;
+	width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.post-container
+{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: 50vh;
+}
+
+div.nav-bar
+{
+    text-align: center;
+    padding: 4vh 0vw 4vh 0vw;
+}
+
+div.stories
+{
+    padding-top: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+
+div.arrows
+{
+    text-align: center;
+}
+
+div.post-photo
+{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+div.excerpt-container
+{
+    padding: 20px 20px 20px 20px;
+}
+
+.fa 
+{
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover 
+{
+    opacity: 0.9;
+}

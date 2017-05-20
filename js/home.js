@@ -114,7 +114,8 @@ function initMap()
     }
 }
 
-var locations = [{
+var locations = 
+[{
 		//guinness storehouse dublin
 		lat: 53.3419,
 		lng: -6.2867,
@@ -150,32 +151,32 @@ var locations = [{
 		lng: 0.1001,
 		url: "2016/11/01/tate-modern.html"
 	}
-	]
+]
 
-	window.fbAsyncInit = function() 
+window.fbAsyncInit = function() 
+{
+	FB.init({
+		appId      : '1685896151707691',
+		xfbml      : true,
+		version    : 'v2.8'
+	});
+	FB.AppEvents.logPageView();
+
+	document.getElementById('fb-share-button').onclick = function() 
 	{
-		FB.init({
-			appId      : '1685896151707691',
-			xfbml      : true,
-			version    : 'v2.8'
-		});
-		FB.AppEvents.logPageView();
+		FB.ui({
+			method: 'share',
+			display: 'popup',
+			href: 'https://icz.io',
+		}, function(response){});
+	}
+};
 
-		document.getElementById('fb-share-button').onclick = function() 
-		{
-			FB.ui({
-				method: 'share',
-				display: 'popup',
-				href: 'https://icz.io',
-			}, function(response){});
-		}
-	};
-
-	(function(d, s, id)
-	{
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/en_US/sdk.js";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
+(function(d, s, id)
+{
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) {return;}
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));

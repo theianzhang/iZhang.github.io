@@ -4,24 +4,10 @@ html, body
     overflow-x: hidden;
 }
 
-#map 
-{
-	height: 50vh;
-	width: 100%;
-}
-
-div.post-container
-{
-    padding-top: 2vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    height: 50vh;
-}
-
 div.nav-bar
 {
-    text-align: left;
-    padding: .75vh 1vw .75vh 0vw;
+    text-align: center;
+    padding: 25vh 0vw 4vh 0vw;
 }
 
 .fa 
