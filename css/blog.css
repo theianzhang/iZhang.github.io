@@ -13,8 +13,7 @@ html, body
 
 div.post-container
 {
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 0vh 1vw 1vh 1vw;
     height: 50vh;
 }
 
@@ -26,10 +25,7 @@ div.nav-bar
 
 div.stories
 {
-    padding-top: 1vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-bottom: 1vh;
+    padding: 1vh 1vw 1vh 1vw;
     text-align: center;
 }
 
