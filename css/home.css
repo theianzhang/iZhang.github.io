@@ -1,13 +1,15 @@
 html, body 
 {
     max-width: 100%;
+    height: 100%;
     overflow-x: hidden;
+    border: solid 1px;
 }
 
 div.nav-bar
 {
     text-align: center;
-    padding: 25vh 0vw 4vh 0vw;
+    padding: 22vh 0vw 4vh 0vw;
 }
 
 .fa 

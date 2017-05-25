@@ -4,23 +4,15 @@
 
 {% include blog-header.html %}
 
-<div class="container-fluid">
+<div class="map-container">
 	<div id="map"></div>
 </div>
 
-<div class="stories">
-	<h3> My Travel Map </h3>
+<div class="scroll-arrow">
+	<a id="scroll" class="fa fa-angle-double-down fa-4x faa-bounce animated" href="#posts-section" style="color:black;"></a> <br>
 </div>
 
-<div class="arrows">
-	<i class="fa fa-arrows-v fa-5x" aria-hidden="true"></i>
-</div>
-
-<div class="stories">
-	<h3> My Travel Stories </h3>
-</div>
-
-<div class="post-container">
+<div class="post-container" id="posts-section">
 	<div class="row">
 		<div class="col-lg-3 col-md-4 col-sm-6">
 			{% for post in site.posts offset:0 limit:4 %}

@@ -1,11 +1,14 @@
 function initMap() 
 {
-	var map = new google.maps.Map(document.getElementById('map'), {
+	var map = new google.maps.Map(document.getElementById('map'), 
+	{
 		zoom: 3,
-		center: {
+		center: 
+		{
 			lat: 47.608013,
 			lng: -122.335167
 		},
+		scrollwheel: false,
 		styles:
 		[
 			{
@@ -79,13 +82,13 @@ function initMap()
 				"elementType": "all",
 				"stylers": [
 				{
-					"color": "#46bcec"
+					"color": "#2F000000"
 				},
 				{
 					"visibility": "on"
 				}
 				]
-			}
+			},
 		]
 
 	});
