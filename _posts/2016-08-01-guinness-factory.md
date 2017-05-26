@@ -16,3 +16,5 @@ Here's something I learned: the "Guinness two pull" thing that dude with the fla
 What is important is the creamy head of a properly settled Guinness. It contains all the little nitrogen bubbles and adds not only texture, but a different set of flavors to contrast the super malty drink underneath.
 
 Net net: be belligerent and trade in a lot of tickets for a lot of pints. Pay attention to the settle, not the pour. Go to the Cliffs of Moher.
+
+{% include disqus.html %}

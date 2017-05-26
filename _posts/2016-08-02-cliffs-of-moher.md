@@ -18,3 +18,5 @@ Right?!
 Chances are, if you owned a computer in the 90s you saw that image every day for years. That's a lot of (stolen pokemon cards) childhood memories.
 
 Fun fact: as of 2015, there were still [250MM people on Windows XP](https://redmondmag.com/articles/2015/04/08/windows-xp-usage.aspx).
+
+{% include disqus.html %}
