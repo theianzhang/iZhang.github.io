@@ -122,37 +122,37 @@ var locations =
 		//guinness storehouse dublin
 		lat: 53.3419,
 		lng: -6.2867,
-		url: "2016/08/01/guinness-factory.html"
+		url: "2016/08/01/guinness-factory"
 	},
 	{
 		//trinity college
 		lat: 53.343889,
 		lng: -6.256806,
-		url: "2016/08/01/trinity-college.html"
+		url: "2016/08/03/trinity-college"
 	},
 	{
 		//cliffs of moher
 		lat: 52.9719,
 		lng: -9.4265,
-		url: "2016/08/01/cliffs-of-moher.html"
+		url: "2016/08/01/cliffs-of-moher"
 	},
 	{
 		//seattle public library
 		lat: 47.6067,
 		lng: -122.3325,
-		url: "2017/05/18/seattle-public-library.html"
+		url: "2017/05/18/seattle-public-library"
 	},
 	{
 		//pike place market
 		lat: 47.6101,
 		lng: -122.3421,
-		url: "2017/05/18/pike-place-market.html"
+		url: "2017/05/18/pike-place-market"
 	},
 	{
 		//tate modern
 		lat: 51.5074,
 		lng: 0.1001,
-		url: "2016/11/01/tate-modern.html"
+		url: "2016/11/01/tate-modern"
 	}
 ]
 

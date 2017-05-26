@@ -10,7 +10,7 @@ What's that you say? Windows desktop backgrounds? Aye, friend, Windows desktop b
 
 I can tell you still don't believe me, so have a gander at what this brings to mind: <br><br>
 
-![Out of the Box Windows XP Background]({{ site.url }}/img/windows-xp-background.png)
+![Out of the Box Windows XP Background]({{ site.url }}/img/post-windows-xp-background.jpeg)
 
 Right?! 
 
