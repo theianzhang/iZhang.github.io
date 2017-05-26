@@ -1,6 +1,7 @@
 ---
 
 title:  "guinness-factory"
+comments: true
 
 ---
 

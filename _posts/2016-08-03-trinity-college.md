@@ -1,6 +1,7 @@
 ---
 
 title: "trinity-college"
+comments: true
 
 ---
 
