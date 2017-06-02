@@ -9,48 +9,23 @@
 </div>
 
 <div class="scroll-arrow">
-	<a id="scroll" class="fa fa-angle-double-down fa-4x faa-bounce animated" href="#posts-section" style="color:black;"></a> <br>
+	<a id="scroll" class="fa fa-angle-double-down fa-4x faa-bounce animated" href="#posts-section" style="color:black;"></a> <br><br>
 </div>
 
 <div class="post-container" id="posts-section">
 	<div class="row">
-		<div class="col-lg-3 col-md-4 col-sm-6">
-			{% for post in site.posts offset:0 limit:4 %}
+		{% for post in site.posts offset:0 limit:4 %}
+			{% if post.categories contains 'travel' %}
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="post-photo">
 					<a href="{{ post.url }}"> <img src="../img/{{ post.title }}.jpeg" class="img-responsive"> </a>
 					<div class="excerpt-container">
 						<a href="{{ post.url }}"> {{ post.title }} </a> 
 					</div>
 				</div>
-			{% endfor %}
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6">
-			{% for post in site.posts offset:4 limit:4 %}
-				<figure>
-					<a href="{{ post.url }}"> <img src="../img/{{ post.title }}.jpeg" class="img-responsive"> </a>
-					<br>
-					<a href="{{ post.url }}"> <figcaption> {{ post.title }} </figcaption> </a> 
-				</figure>
-			{% endfor %}
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6">
-			{% for post in site.posts offset:8 limit:4 %}
-				<figure>
-					<a href="{{ post.url }}"> <img src="../img/{{ post.title }}.jpeg" class="img-responsive"> </a>
-					<br>
-					<a href="{{ post.url }}"> <figcaption> {{ post.title }} </figcaption> </a> 
-				</figure>
-			{% endfor %}
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6">
-			{% for post in site.posts offset:12 limit:4 %}
-				<figure>
-					<a href="{{ post.url }}"> <img src="../img/{{ post.title }}.jpeg" class="img-responsive"> </a>
-					<br>
-					<a href="{{ post.url }}"> <figcaption> {{ post.title }} </figcaption> </a> 
-				</figure>
-			{% endfor %}
-		</div>
+			</div>
+			{% endif %}
+		{% endfor %}
 	</div>
 </div>
 

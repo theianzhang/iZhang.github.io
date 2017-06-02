@@ -2,6 +2,7 @@
 
 title:  "guinness-factory"
 comments: true
+categories: travel
 
 ---
 

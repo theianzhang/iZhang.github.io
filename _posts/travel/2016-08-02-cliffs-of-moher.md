@@ -2,6 +2,7 @@
 
 title: "cliffs-of-moher"
 comments: true
+categories: travel
 
 ---
 

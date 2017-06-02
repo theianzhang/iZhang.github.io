@@ -2,6 +2,7 @@
 
 title: "trinity-college"
 comments: true
+categories: travel
 
 ---
 
