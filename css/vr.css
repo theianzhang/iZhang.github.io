@@ -21,99 +21,87 @@ div.nav-bar
     opacity: 0.9;
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+/* TIMELINE */
+
+.timeline {
+    position: relative;
+    padding: 21px 0px 10px;
+    margin-top: 4px;
+    margin-bottom: 30px;
 }
 
-body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: white;
-  overflow-x: hidden;
-  color: white;
-  padding-bottom: 50px;
-}  
-
-
-/* INTRO SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.intro {
-  background: black;
-  padding: 100px 0;
+.timeline .line {
+    position: absolute;
+    width: 4px;
+    display: block;
+    background: currentColor;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 30px;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+.timeline .line::before { top: -4px; }
+.timeline .line::after { bottom: -4px; }
+.timeline .line::before,
+.timeline .line::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 50%;
+    background: currentColor;
 }
 
-h1 {
-  font-size: 2.5rem;
+.timeline .panel {
+    position: relative;
+    margin: 10px 0px 21px 70px;
+    clear: both;
 }
 
-
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.timeline ul li {
-  list-style-type: none;
-  position: relative;
-  width: 6px;
-  margin: 0 auto;
-  padding-top: 50px;
-  background: black;
+.timeline .panel::before {
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: -24px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border: inherit;
+    border-width: 12px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
 }
 
-.timeline ul li::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: inherit;
+.timeline .panel .panel-heading.icon * { font-size: 20px; vertical-align: middle; line-height: 40px; }
+.timeline .panel .panel-heading.icon {
+    position: absolute;
+    left: -59px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
 }
 
-.timeline ul li div {
-  position: relative;
-  bottom: 0;
-  width: 400px;
-  padding: 15px;
-  background: #000000;
+.timeline .panel-outline {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
 }
 
-.timeline ul li div::before {
-  content: '';
-  position: absolute;
-  bottom: 7px;
-  width: 0;
-  height: 0;
-  border-style: solid;
+.timeline .panel-outline .panel-body {
+    padding: 10px 0px;
 }
 
-.timeline ul li:nth-child(odd) div {
-  left: 45px;
+.timeline .panel-outline .panel-heading:not(.icon),
+.timeline .panel-outline .panel-footer {
+    display: none;
 }
 
-.timeline ul li:nth-child(odd) div::before {
-  left: -15px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent #999999 transparent transparent;
-}
-
-.timeline ul li:nth-child(even) div {
-  left: -439px;
-}
-
-.timeline ul li:nth-child(even) div::before {
-  right: -15px;
-  border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #999999;
-}
+/* TIMELINE */
