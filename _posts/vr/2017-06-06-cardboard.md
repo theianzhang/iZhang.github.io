@@ -6,4 +6,4 @@ categories: vr
 
 ---
 
-Google Cardboard tradeoffs
+Google Cardboard 

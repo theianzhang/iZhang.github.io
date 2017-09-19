@@ -4,18 +4,20 @@
 
 {% include home-header.html %}
 
-<!-- Copyright -->
-<div class="top-left">
-	<!-- Resume -->
-	<a id="about" class="fa fa-user-circle fa-2x" href="/resume" style="color:black;"></a> <br>
+
+<div class="container-fluid">
+	<div class="row grid-top">
+		<div class="col-xs-12 col-sm-6 travel"> <a href="/blog" class="fa fa-plane fa-5x"></a> </div>
+		<div class="col-xs-12 col-sm-6 vr"> <a href="/vr" class="fa fa-fast-forward fa-5x"></a> </div>
+	</div>
+	<div class="personal">
+		<a href="/resume" class="fa fa-user fa-5x"></a>
+	</div>
+	<div class="row grid-bottom">
+		<div class="col-xs-12 col-sm-6 food"> <a href="/food" class="fa fa-cutlery fa-5x"></a> </div>
+		<div class="col-xs-12 col-sm-6 misc"> <a href="/misc" class="fa fa-pencil fa-5x"></a> </div> 
+	</div>
 </div>
 
-<!-- Nav Bar -->
-<div class="nav-bar img-responsive" id="nav">
-	<!-- Blog -->
-	<br> <a id="travel" class="fa fa-plane fa-5x" href="/blog" style="color:black;"></a> <br>
-	<!-- VR -->
-	<br> <a id="vr" class="fa fa-fast-forward fa-4x" href="/vr" style="color:black;"></a> <br>
-</div>
 
 {% include home-footer.html %}

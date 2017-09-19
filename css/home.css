@@ -11,23 +11,56 @@ body
     overflow-x: hidden;
 }
 
-div.nav-bar
+.container-fluid
 {
-    text-align: center;
-    padding: 25vh 0vw 4vh 0vw;
 }
 
-.fa 
+.fa
 {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    color: black;
 }
 
-.fa:hover 
+.personal
 {
-    opacity: 0.9;
+    position: relative;
+    padding: 0vh 0vw 0vh 50vw;
+}
+
+.travel
+{
+    padding: 25vh 0vw 0vh 25vw;
+    background: red;
+}
+
+.food
+{
+    padding: 25vh 0vw 0vh 25vw;
+    background: blue;
+}
+
+.vr
+{
+    padding: 25vh 0vw 0vh 25vw;
+    background: yellow;
+}
+
+.misc
+{
+    padding: 25vh 0vw 0vh 25vw;
+    background: green;
+}
+
+.grid-top
+{
+    height: 50vh;
+}
+
+.grid-bottom
+{
+    height: 50vh;
 }
