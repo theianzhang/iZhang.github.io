@@ -170,7 +170,7 @@ window.fbAsyncInit = function()
 		FB.ui({
 			method: 'share',
 			display: 'popup',
-			href: 'https://icz.io',
+			href: 'https://izhang.github.io',
 		}, function(response){});
 	}
 };

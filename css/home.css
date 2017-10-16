@@ -1,6 +1,5 @@
 html
 {
-    border: solid 1px;
     max-width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -13,54 +12,57 @@ body
 
 .container-fluid
 {
+    padding: 0;
 }
 
 .fa
 {
-    text-decoration: none;
-    border-radius: 50%;
-    text-align: center;
     z-index: 1;
-    position: absolute;
     color: black;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: middle;
 }
 
-.personal
+.content
 {
-    position: relative;
-    padding: 0vh 0vw 0vh 50vw;
+    width: 100vw;
+    height: 50vh;
 }
 
 .travel
 {
     padding: 25vh 0vw 0vh 25vw;
-    background: red;
 }
 
 .food
 {
     padding: 25vh 0vw 0vh 25vw;
-    background: blue;
 }
 
 .vr
 {
     padding: 25vh 0vw 0vh 25vw;
-    background: yellow;
 }
 
 .misc
 {
     padding: 25vh 0vw 0vh 25vw;
-    background: green;
 }
 
-.grid-top
+.grid
 {
-    height: 50vh;
+    height: 100vh;
 }
 
-.grid-bottom
+/*
+
+.personal
 {
-    height: 50vh;
+    position: relative;
+    float: center;
+    z-index: 2;
 }
+
+*/

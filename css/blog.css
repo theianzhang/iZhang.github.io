@@ -5,6 +5,13 @@ html, body
     overflow-x: hidden;
 }
 
+.item
+{
+    margin: auto;
+    width: 100vw;
+    height: 75vh;
+}
+
 #map 
 {
 	height: 60vh;
@@ -14,7 +21,7 @@ html, body
 
 div.post-container
 {
-    padding: 0vh 1vw 1vh 1vw;
+    padding: 1vh 1vw 1vh 1vw;
     height: 50vh;
 }
 
@@ -23,11 +30,6 @@ div.nav-bar
     text-align: center;
     padding: 4vh 0vw 4vh 0vw;
     background-color: white;
-}
-
-div.scroll-arrow
-{
-    text-align: center;
 }
 
 div.post-photo

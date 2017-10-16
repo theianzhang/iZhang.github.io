@@ -4,29 +4,56 @@
 
 {% include blog-header.html %}
 
-<div class="map-container">
-	<div id="map"></div>
+<div id="Carousel" class="carousel slide">
+	<ol class="carousel-indicators">
+		<li data-target="Carousel" data-slide-to="0" class="active"></li>
+		<li data-target="Carousel" data-slide-to="1"></li>
+		<li data-target="Carousel" data-slide-to="2"></li>
+	</ol>
+
+	<div class="carousel-inner">
+		<div class="item active img-fluid img-responsive">
+			<img src="../img/cliffs-of-moher.jpeg">
+		</div>
+		<div class="item img-fluid img-responsive">
+			<img src="../img/cliffs-of-moher.jpeg">
+		</div>
+		<div class="item img-fluid img-responsive">
+			<img src="../img/cliffs-of-moher.jpeg">
+		</div>
+	</div>
+
+	<a class="left carousel-control" href="#Carousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+	<a class="right carousel-control" href="#Carousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
 </div>
 
-<div class="scroll-arrow">
-	<a id="scroll" class="fa fa-angle-double-down fa-4x faa-bounce animated" href="#posts-section" style="color:black;"></a> <br><br>
-</div>
 
 <div class="post-container" id="posts-section">
 	<div class="row">
-		{% for post in site.posts offset:0 limit:8 %}
-			{% if post.categories contains 'travel' %}
-			<div class="col-lg-3 col-md-4 col-sm-6">
-				<div class="post-photo">
-					<a href="{{ post.url }}"> <img src="../img/{{ post.title }}.jpeg" class="img-responsive"> </a>
-					<div class="excerpt-container">
-						<a href="{{ post.url }}"> {{ post.title }} </a> 
+		{% for post in site.posts offset:0 limit:30 %}
+		{% if post.categories contains 'travel' %}
+		<div class="col-lg-3 col-md-4 col-sm-6">
+			<div class="post-photo">
+				<div class="card">
+					<div class="card-block">
+						<a href="{{ post.url }}"> <img class="card-img-top img-responsive" src="../img/{{ post.title }}.jpeg"> </a>
+						<a href="{{ post.url }}"> <h3 class="card-title">{{ post.title }} </h3> </a>
+						<p class="card-text"> {{ post.excerpt }} </p>
 					</div>
 				</div>
 			</div>
-			{% endif %}
+		</div>
+		{% endif %}
 		{% endfor %}
 	</div>
+</div>	
+
+<div class="map-container">
+	<div id="map"></div> 
 </div>
 
 {% include blog-footer.html %}
