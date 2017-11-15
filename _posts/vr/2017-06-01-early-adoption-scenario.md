@@ -23,3 +23,15 @@ So, let's take company X. X is engaged in real estate in base reality: brokering
 An early adopter has the following disadvantages:
   * They can be unplugged
   * They can mistime entry such that they re-enter base reality having no applicable skills
+
+  Whereas IMO the single greatest risk to donning a headset and fully immersive haptic suit is the risk of being too early (or late) on the adoption curve.
+
+  * Assume, for the purposes of this analysis, that both content and hardware are AAA, such that a headset and a haptic suit renders an experience that is not only indistuingishable from reality, but provides a 10x experience over base reality.
+
+An early adopter has the following advantages:
+  * Shape the world
+  * Monetize the world
+
+An early adopter has the following disadvantages:
+  * They can be unplugged
+  * They can mistime entry such that they re-enter base reality having no applicable skills
