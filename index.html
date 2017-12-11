@@ -1,30 +1,53 @@
----
+<!DOCTYPE html>
 
----
+<title>case:switch:sanity:insanity</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include home-header.html %}
+<!-- Bootstrap library -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!-- Custom style sheets -->
+<link rel="stylesheet" type="text/css" href="/css/home.css">
+<!-- Font aweseom icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Google serif fonts -->
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 
 
 <div class="container-fluid">
 	<div class="row grid">
-		<div class="col-sm-6"> 
-			<div class="travel content"> <a href="/blog" class="fa fa-plane fa-5x"></a> </div>
+		<div class="col-lg-3 col-md-4 col-md-6"> 
+			<a href="/blog"> <img class="image" src="img/home/travel.png"> </a>
+			<p class="label"> Travel </p>
 		</div>
-		<div class="col-sm-6"> 
-			<div class="vr content"> <a href="/vr" class="fa fa-fast-forward fa-5x"></a> </div>
+		<div class="col-lg-3 col-md-4 col-md-6"> 
+			<a href="/vr"> <img class="image" src="img/home/vr.png"> </a>
+			<p class="label"> VR </p>
 		</div>
-		<div class="col-sm-6"> 
-			<div class="food content"> <a href="/food" class="fa fa-cutlery fa-5x"></a> </div>
+		<div class="col-lg-3 col-md-4 col-md-6"> 
+			<a href="/food"> <img class="image" src="img/home/food.png"> </a>
+			<p class="label"> Food </p>
 		</div>
-		<div class="col-sm-6"> 
-			<div class="misc content"> <a href="/misc" class="fa fa-pencil fa-5x"></a> </div>
+		<div class="col-lg-3 col-md-4 col-md-6"> 
+			<a href="/misc"> <img class="image" src="img/home/misc.png"> </a>
+			<p class="label"> Misc </p>
 		</div> 
 	</div>
 </div>
 
-<!--
-<a href="/resume" class="fa fa-user fa-5x"> </a>
--->
+<!-- Footer -->
+<footer>
+	<nav class="navbar fixed-bottom navbar-light bg-light">
+  		<a class="navbar-brand" href="#"> About | License </a>
+	</nav>
+</footer>
 
 
-{% include home-footer.html %}
+<!-- Bootstrap 4 requires Tether -->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<!-- Bootstrap requires jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!-- Custom scripts -->
+<script type="text/javascript" src="/js/home.js"></script>
