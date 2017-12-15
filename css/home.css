@@ -40,9 +40,16 @@ body
     text-align: center;
 }
 
-.navbar
-{
+.navbar-brand
+{   
     background-color: #838383;
-    color: white;
     text-align: center;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.link-color
+{
+    color: white;
 }
