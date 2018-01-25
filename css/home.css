@@ -14,6 +14,33 @@ body
     margin-bottom: -50px;
 }
 
+/* The hero image */
+.hero-image 
+{
+    width: 100vw;
+    height: auto;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.visible-mobile {
+  display: none !important;
+}
+
+@media (max-width: 459px) {
+  .visible-mobile {
+    display: inline !important;
+  }
+
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+
 .container-fluid
 {
     padding: 0;

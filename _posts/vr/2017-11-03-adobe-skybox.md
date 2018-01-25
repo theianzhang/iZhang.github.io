@@ -12,4 +12,6 @@ Sketch, Mural, Balsamiq, etc. are all great tools for quick wireframing, but XD 
 
 That collaboration is so key to the future of user-oriented design, and makes Adobe's [acquisition](http://news.adobe.com/press-release/creative-cloud/adobe-continues-drive-360-video-and-vr-innovation-acquisition-mettles) of Skybox an incredibly forward-thinking play. Skybox does post-production effects and editing for 360/VR video, and thinking about integrating that plugin into XD should make most of our heads explode. While the use cases are everywhere, I want to focus on the industrial for a second. Instead of sending a team of tech-sales guys onsite to show Customer A a completely unrelated demo of a bespoke application built for Customer B, how about a drone flyover of Customer A's asset line. Then start layering virtual assets (with IoT enabled solutions) on top of that footage in real time, A/B test it with Customer A in real time, start gathering requirement outlines, and then rake in the commissions. 
 
-![mind blown](http://www.reactiongifs.com/wp-content/uploads/2013/10/tim-and-eric-mind-blown.gif "Mind Blown")
+<br>
+
+![mind blown](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif "Mind Blown"){:class="img-responsive"}
