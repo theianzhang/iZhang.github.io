@@ -6,7 +6,7 @@ categories: travel
 
 ---
 
-Five minutes north of well-known [Beale Street](https://en.wikipedia.org/wiki/Beale_Street) in downtown Memphis is a small, soul-food joint called Alcenia's. This place has got soul y'all. Some people skip the beverages section on menus at smaller venues and lemme tell ya, that's a mistake at Alcenia's. Because you would miss out on something called "Ghetto-aid". I'm deadass serious. Ghetto-aid is, as you can guess, a more ghetto form of [Kool-Aid](https://en.wikipedia.org/wiki/Kool-Aid). And by more ghetto I mean it's literally sugar, water, and food coloring. 
+Five minutes north of well-known [Beale Street](https://en.wikipedia.org/wiki/Beale_Street) in downtown Memphis is a small, soul-food joint called Alcenia's. This place has got soul y'all. Some people skip the beverages section on menus at smaller venues and lemme tell ya, that's a mistake at Alcenia's. Because you would miss out on something called "Ghetto-aid". I'm deadass serious. Ghetto-aid is, as you can guess, a ghetto form of [Kool-Aid](https://en.wikipedia.org/wiki/Kool-Aid). It is literally sugar, water, and food coloring. It also happens to be heavenly.
 
 Obligatory Dave Chappelle: [Sugar, water, purple](https://www.youtube.com/watch?v=UayQTu2kH-U)
 

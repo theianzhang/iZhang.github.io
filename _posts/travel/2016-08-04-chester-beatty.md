@@ -25,6 +25,4 @@ On display in 2016 was a selection of those manuscripts from Japan, including th
 
 They say we should learn from history. What's the lesson here friends?  
 
-**All men are absolute DAUGZ**
-
 {% include disqus.html %}
