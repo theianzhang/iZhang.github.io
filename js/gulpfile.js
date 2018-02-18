@@ -3,13 +3,13 @@ var imageResize = require('gulp-image-resize');
 var imagemin = require('gulp-imagemin');
 
 gulp.task('miniImages', function(callback) {
-	gulp.src('../img/*.png')
+	gulp.src('../img/hero/*.png')
 	.pipe(imageResize({
 		format: 'jpeg',
 		noProfile: true,
-		width: 500,
-		height: 500
+		width: 5000,
+		height: 5000
 	}))
 	.pipe(imagemin())
-	.pipe(gulp.dest('../img/'));
+	.pipe(gulp.dest('../img/hero/'));
 });

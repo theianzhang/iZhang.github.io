@@ -5,11 +5,19 @@ html, body
     overflow-x: hidden;
 }
 
-.item
+#hero-carousel 
 {
-    margin: auto;
-    width: 100vw;
-    height: 75vh;
+   height: 66vh;
+   width: 100vw;
+   overflow: hidden;
+
+   -webkit-filter: drop-shadow(5px 5px 5px #222);
+   filter: drop-shadow(5px 5px 5px #222);
+}
+
+.carousel-inner > .item > img 
+{
+    max-width: 100vw;
 }
 
 #map 
