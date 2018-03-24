@@ -2,7 +2,13 @@
 
 ---
 
-{% include blog-header.html %}
+<!DOCTYPE html>
+
+<title>Travel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% include header.html %}
 
 <div id="hero-carousel" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
@@ -50,8 +56,7 @@
 	</div>
 </div>	
 
-<div class="map-container">
-	<div id="map"></div> 
-</div>
+{% include footer.html %}
 
-{% include blog-footer.html %}
+<!-- Custom scripts -->
+<script type="text/javascript" src="/js/blog.js"></script>
