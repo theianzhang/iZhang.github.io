@@ -4,64 +4,32 @@
 
 <!DOCTYPE html>
 
-<title>Virtual Reality</title>
+<title>Extended Reality</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% include header.html %}
 
-<div class="container">
+<link rel="stylesheet" type="text/css" href="/css/vr.css">
 
-    <!-- Page header -->
-    <div class="page-header">
-        <h2> Musings <small> on <code> XR </code></small></h2>
+<hr/><br>
+
+<section class="custom-card">
+    
+    {% for post in site.posts %}
+    {% if post.categories contains 'vr' %}
+
+    <div class="card--content">
+        <div class="card-header">{{ post.date | date: '%B %d, %Y' }}</div>
+        <div class="card-body">
+          <h5 class="card-title">{{ post.title }}</h5>
+          <p class="card-text">{{ post.excerpt }}</p>
+        </div>
     </div>
-    <!-- /Page header -->
 
-    <!-- Timeline -->
-    <div class="timeline">
-    
-        <!-- Line component -->
-        <div class="line text-muted"></div>
-
-        {% for post in site.posts %}
-          {% if post.categories contains 'vr' %}
-    
-          <!-- Panel -->
-          <article class="panel panel-default">
-      
-              <!-- Icon -->
-              <div class="panel-heading icon">
-                  <i class="glyphicon glyphicon-hourglass"></i>
-              </div>
-              <!-- /Icon -->
-      
-              <!-- Heading -->
-              <div class="panel-heading">
-                  <h2 class="panel-title">{{ post.title }}</h2>
-              </div>
-              <!-- /Heading -->
-      
-              <!-- Body -->
-              <div class="panel-body">
-                  {{ post.content }}
-              </div>
-              <!-- /Body -->
-      
-              <!-- Footer -->
-              <div class="panel-footer">
-                  <small> {{ post.date | date: '%B %d, %Y' }} </small>
-              </div>
-              <!-- /Footer -->
-      
-          </article>
-          <!-- /Panel -->
-
-         {% endif %}
+    {% endif %}
     {% endfor %}
-    
-    </div>
-    <!-- /Timeline -->
 
-</div>
-</div>
+</section>
+
+{% include footer.html %}
