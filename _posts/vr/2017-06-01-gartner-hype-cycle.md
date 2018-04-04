@@ -9,7 +9,7 @@ categories: vr
 A few years ago, when VR experiences started popping up at every booth at every tech conference in every city, I noticed an increasing number of articles addressing the [isolation problem](http://factor-tech.com/feature/is-virtual-reality-going-to-make-us-withdraw-from-the-real-world/) in VR -- a dystopian society some futurists envision where virtual content is so compelling that segments of the population disengage from base reality entirely. 
 
 <p align="center">
-  <img src="http://factor-tech.com/wp-content/uploads/2015/10/Image-courtesy-of-Eran-Fowler.jpg" class="img-responsive" alt="Photo credit: Eran Fowler"/>
+  <img src="https://factor-tech.com/wp-content/uploads/2015/10/Image-courtesy-of-Eran-Fowler.jpg" class="img-responsive" alt="Photo credit: Eran Fowler"/>
 </p>
 
 The alarmist sentiment around VR-as-social-isolation is, to be clear, completely valid. It's also a decade too late. Because these alarmists are missing the societal trend that's already [happening](https://www.npr.org/templates/story/story.php?storyId=6535284)! When virtual content provides 10x the serotonin of base reality--in all aspects of waking life from breakfast to bedtime--there remain virtually zero incentives to remain in base reality for a majority of the impoverished, marginalized, or otherwise already isolated segments of the global population. 
