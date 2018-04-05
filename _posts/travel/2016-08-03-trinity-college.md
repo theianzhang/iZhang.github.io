@@ -1,9 +1,9 @@
 ---
-
-title: "trinity-college"
+title: trinity-college
+date: 2016-08-03 00:00:00 Z
+categories:
+- travel
 comments: true
-categories: travel
-
 ---
 
 The Trinity College Library is the largest in Ireland, and outside of being incredibly instagrammable (priority N), it also houses the Book of Kells (priority N+1). 

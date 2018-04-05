@@ -1,9 +1,9 @@
 ---
-
-title: "chester-beatty"
+title: chester-beatty
+date: 2016-08-04 00:00:00 Z
+categories:
+- travel
 comments: true
-categories: travel
-
 ---
 
 Tucked away inside the grounds of Dublin Castle is the Chester Beatty Library, named after one of the 20th century's greatest collectors, Sir Alfred Chester Beatty. First off, he's an absolute G, check out his [bio](https://en.wikipedia.org/wiki/Alfred_Chester_Beatty). Second, the man has a stellar eye for manuscripts. 

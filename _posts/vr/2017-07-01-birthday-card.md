@@ -1,9 +1,9 @@
 ---
-
-title: "birthday card"
+title: birthday card
+date: 2017-07-01 00:00:00 Z
+categories:
+- vr
 layout: vr-posts
-categories: vr
-
 ---
 
 I was at QFC yesterday picking up a birthday card when I noticed a lovely new section: VR cards! These bad boys fold open into a surprise Google cardboard-esque cutout that you tear open. The one I eventually chose had an accompanying link to a video site that would render a virtual hot air balloon ride: "It's your birthday; may your goals be as high as the skies!" The quality was absolutely terrible. 
