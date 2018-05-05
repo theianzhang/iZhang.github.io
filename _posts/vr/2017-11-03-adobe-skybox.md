@@ -1,9 +1,9 @@
 ---
-
-title: "adobe-skybox"
+title: adobe-skybox
+date: 2017-11-03 00:00:00 Z
+categories:
+- vr
 layout: vr-posts
-categories: vr
-
 ---
 
 My team at work fully embraces OSS, and that gives me exposure to a pretty wide range of awesome, cutting-edge tools to execute on my job. For prototyping, [Adobe Experience Design](http://www.adobe.com/products/xd.html) has been a life saver. I can pull a designer and a dev lead into a meeting, with only XD on the screen, and walk out of there a few hours later with vetted, high-def mockups of a product prototype. 

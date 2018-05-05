@@ -1,9 +1,9 @@
 ---
-
-title: "Industrial AR Ecosystem"
+title: Industrial AR Ecosystem
+date: 2018-01-08 00:00:00 Z
+categories:
+- vr
 layout: vr-posts
-categories: vr
-
 ---
 
 Since my product area is IIoT, I have the fortune of devoting a small chunk of my day to researching up and coming companies in the space. An area that is generating immense interest from customers on the ground is in augmented reality. Many companies, across verticals as diverse as manufacturing, telecom, and transportation, see a great opportunity to improve the day to day of their "boots on the ground." These folks are the operators, technicians, and OT experts who keep our world running, 24/7/365.  

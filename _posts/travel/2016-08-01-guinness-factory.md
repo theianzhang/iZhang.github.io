@@ -1,9 +1,9 @@
 ---
-
-title:  "guinness-factory"
+title: guinness-factory
+date: 2016-08-01 00:00:00 Z
+categories:
+- travel
 comments: true
-categories: travel
-
 ---
 
 The Guinness factory in Dublin is a legitimate part of the Irish experience. I say this as a Chinese-American dude, so you know it's for real. 

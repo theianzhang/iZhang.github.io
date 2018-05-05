@@ -1,9 +1,9 @@
 ---
-
-title: "jameson-distillery"
+title: jameson-distillery
+date: 2016-08-03 00:00:00 Z
+categories:
+- travel
 comments: true
-categories: travel
-
 ---
 
 The Jameson Distillery is an absolute champ about tours. They actually start a 45 minute long tour 30 minutes prior to closing, which leaves you a whole 15 minutes to peruse the Distillery Reserve collection at your leisure while the entire place is essentially closed.  

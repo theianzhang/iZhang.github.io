@@ -1,9 +1,9 @@
 ---
-
-title: "VR: Lows Still Coming"
+title: 'VR: Lows Still Coming'
+date: 2017-06-01 00:00:00 Z
+categories:
+- vr
 layout: vr-posts
-categories: vr
-
 ---
 
 A few years ago, when VR experiences started popping up at every booth at every tech conference in every city, I noticed an increasing number of articles addressing the [isolation problem](http://factor-tech.com/feature/is-virtual-reality-going-to-make-us-withdraw-from-the-real-world/) in VR -- a dystopian society some futurists envision where virtual content is so compelling that segments of the population disengage from base reality entirely. 
