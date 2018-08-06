@@ -1,87 +1,92 @@
 html
 {
     max-width: 100%;
-    height: 100%;
+    min-height: 100%;
     overflow-x: hidden;
+    position: relative;
 }
 
 body
 {
     overflow-x: hidden;
-    font-family: 'Cinzel', serif;
-    font-size: 48px;
-    padding-bottom: 0;
-    margin-bottom: -50px;
-    background-color: #e6eeff;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 90px; /* Margin bottom by footer height */
 }
 
-/* The hero image */
-.hero-image 
+.navbar
 {
-    width: 100vw;
-    height: auto;
-
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
+    background-color: #E9ECEF;
+    margin-bottom: -20px;
 }
 
-.visible-mobile {
-  display: none !important;
+/* unvisited link */
+a:link {
+    color: #8A8A8A;
 }
 
-@media (max-width: 459px) {
-  .visible-mobile {
-    display: inline !important;
-  }
-
-  .hidden-mobile {
-    display: none !important;
-  }
+/* visited link */
+a:visited {
+    color: black;
 }
 
-.container-fluid
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+.display-6
 {
-    padding: 5vh 0vw 3vh 0vw;
+    color: #8A8A8A;
+    font-size: 1.5em;
+    height: 6vh;
+    margin-bottom: -2vh;
 }
 
-.image
+.overlay 
 {
-    /*Rounded edges*/
-    -moz-border-radius: 125px; /* FF1+ */
-    -webkit-border-radius: 125px; /* Saf3-4 */
-    border-radius: 125px; /* Opera 10.5, IE 9, Saf5, Chrome */
-
-    background-repeat:no-repeat;
-    border:5px solid #CCCCCC;
-    height:250px;
-    margin:2vw;
-    width:250px;
-    z-index:1;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.label
-{
-    text-align: center;
-}
-
-.navbar-brand
-{   
-    background-color: #838383;
-    text-align: center;
-    width: 100vw;
     position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3C3C48;
 }
 
-.link-color
+.container:hover .overlay 
+{
+    opacity: .9;
+}
+
+.text 
 {
     color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.footer 
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 90px;
+    line-height: 90px; /* Vertically center the text there */
+    background-color: #E9ECEF;
+    color: black;
 }
