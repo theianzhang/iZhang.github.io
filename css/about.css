@@ -1,0 +1,65 @@
+html
+{
+    max-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body
+{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 90px; /* Margin bottom by footer height */
+    background: #E9ECEF;
+}
+
+.navbar
+{
+    background-color: #E9ECEF;
+    margin-bottom: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: #8A8A8A;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+.sketchfab-container
+{
+    max-height: 75vh;
+}
+
+.black
+{
+    color: black;
+}
+
+.footer 
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 90px;
+    line-height: 90px; /* Vertically center the text there */
+    background-color: #E9ECEF;
+    color: black;
+}
