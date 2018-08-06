@@ -1,0 +1,121 @@
+html
+{
+    max-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body
+{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px; /* Margin bottom by footer height */
+}
+
+/* The hero image */
+.hero-image 
+{
+    width: 100vw;
+    height: auto;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    padding-bottom: 5vh;
+}
+
+.parallax 
+{ 
+    /* The image used */
+    background-image: url("/img/hero/seattle-cover.jpeg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.visible-mobile {
+  display: none !important;
+}
+
+@media (max-width: 459px) {
+  .visible-mobile {
+    display: inline !important;
+  }
+
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+
+.container-fluid
+{
+    padding: 5vh 0vw 3vh 0vw;
+}
+
+.porthole
+{
+
+}
+
+.fa 
+{
+    color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+.label
+{
+    text-align: center;
+}
+
+.footer 
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  line-height: 30px; /* Vertically center the text there */
+  background-color: black;
+  color: white;
+}
+
+.text-white
+{
+    color: white;
+}
+
+.bottom5vh { margin-bottom:5vh; }

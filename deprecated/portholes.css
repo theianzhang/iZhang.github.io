@@ -1,0 +1,18 @@
+
+.image
+{
+    /*Rounded edges*/
+    -moz-border-radius: 125px; /* FF1+ */
+    -webkit-border-radius: 125px; /* Saf3-4 */
+    border-radius: 125px; /* Opera 10.5, IE 9, Saf5, Chrome */
+
+    background-repeat:no-repeat;
+    border:5px solid #CCCCCC;
+    height:250px;
+    margin:2vw;
+    width:250px;
+    z-index:1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

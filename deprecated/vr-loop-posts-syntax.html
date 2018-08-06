@@ -1,0 +1,23 @@
+<!-- Page header -->
+<div class="page-header">
+  <h2> Musings <small> on <code> XR </code></small></h2>
+</div>
+
+<div id="content">
+  <h1>Timeline Concept</h1>
+
+  {% for post in site.posts %}
+  {% if post.categories contains 'vr' %}
+
+  <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">{{ post.date | date: '%B %d, %Y' }}</div>
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text">{{ post.content }}</p>
+    </div>
+  </div>
+
+  {% endif %}
+  {% endfor %}
+
+</div>

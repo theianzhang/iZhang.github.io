@@ -7,16 +7,65 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+{% include goog-analytics.html %}
 {% include header.html %}
 
-<div class="header-container">
-	<div class="txt-container">
-		<p> <span class="mostly"> *generally* </span> Breakfast <span class="sandwiches"> *sandies* </span> </p>
+<!-- Custom stylesheet -->
+<link rel="stylesheet" type="text/css" href="/css/food.css">
+
+<div class="text-center m-5">
+	<h2> This is my quest to become the World Champion of breakfast sandwiches. </h2> 
+
+	<p class="m-3"> Yes, there's a <a href="https://worldfoodchampionships.com/competitions/2017/world-sandwich-championship" target="_blank"> World Championship</a>. </p>
+	<p> I post the latest iteration (w/ recipe) for competition on this page. </p>
+	<p> Ideally this process ends with me holding a trophy, but more likely, this ends with another dream in the trashcan. </p>
+</div>
+
+<div class="container-fluid">
+	<div class="text-center m-5"> 
+		<img src="/img/food/august-2018.png" class="img-fluid image" alt="current-iteration">
 	</div>
 </div>
 
-<br><br>
-
-<hr class="section-break">
+<!-- 2 tile format for projects --> 
+<div class="container">
+	<div class="row grid pb-5">
+		<div class="col-lg-6 col-md-6 col-sm-12 text-center mb-5"> 
+			<div class="container">
+				<p> <strong> Ingredients: </strong> </p>
+				<ul class="list-group">
+					<li class="list-group-item"> 8 english muffins </li>
+					<li class="list-group-item"> 6 eggs </li>
+					<li class="list-group-item"> 8 slices of pepperjack cheese </li>
+					<li class="list-group-item"> 2 large tomatoes </li>
+					<li class="list-group-item"> 1 cup of white button mushrooms </li>
+					<li class="list-group-item"> 1 stick of unsalted butter </li>
+					<li class="list-group-item"> 1 cup of pre-washed spinach </li>
+					<li class="list-group-item"> 1 large avocado </li>
+					<li class="list-group-item"> 1 yellow onion </li>
+					<li class="list-group-item"> 2 tbsp cayenne pepper </li>
+					<li class="list-group-item"> 1/2 cup of cilantro </li>
+					<li class="list-group-item"> Salt and pepper to taste </li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 text-center"> 
+			<div class="container">
+				<p> <strong> Instructions: </strong> </p> 
+				<ul class="list-group">
+					<li class="list-group-item"> Preheat oven to 375&deg; F </li>
+					<li class="list-group-item"> Whenever the oven is ready, separate the halves of all muffins and bake for 15 minutes </li>
+					<li class="list-group-item"> Dice onion and cilantro, thinly slice mushrooms and tomatoes. Crack all 6 eggs into a bowl; remove two egg yolks and set aside. </li>
+					<li class="list-group-item"> Soft scramble eggs. Sprinkle salt and pepper in. </li>
+					<li class="list-group-item"> Sautee mushrooms, spinach, and 1/2 of the diced onion (set aside other half). </li>
+					<li class="list-group-item"> Make a simple guacamole by mixing in remaining onion and 1 tbsp cayenne pepper with the avocado. Salt and pepper to taste. </li>
+					<li class="list-group-item"> Prepare hollandaise sauce by heating a medium pan of water to a simmer. Slowly whisk in entire stick of butter with 2 egg yolks. This will take a while. Sprinkle in other tbsp of cayenne pepper, cover, and set aside </li>
+					<li class="list-group-item"> Remove muffins from oven and place layer of guacamole and eggs on one half. Immediately place cheese on top so it melts the right amount. Place tomato, mushrooms, and spinach on the other half. </li>
+					<li class="list-group-item"> Drizzle hollandaise sauce over the egg side, add pepper and sprinkle cilantro on top. </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
 
 {% include footer.html %}

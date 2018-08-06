@@ -1,36 +1,15 @@
+---
+---
+
 <!DOCTYPE html>
 
 <title> Sanity </title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Bootstrap library -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<!-- Custom style sheets -->
-<link rel="stylesheet" type="text/css" href="/css/home.css">
-<!-- Font awesome icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Google serif fonts -->
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+{% include goog-analytics.html %}
+{% include home-header.html %}
 
-<!-- Navbar with logo -->
-<nav class="navbar navbar-expand-lg navbar-light">
-
-	<a class="navbar-brand nav-item nav-link active" href="/"> <img src="/img/home/logo-black.png" width="30" height="30" alt=""> </a>
-
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-
-	<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-		<div class="navbar-nav dropdown-menu-right">
-			<a class="nav-item nav-link" href="/about">About</a>
-			<a class="nav-item nav-link" href="/travel">Travel</a>
-			<a class="nav-item nav-link" href="/vr">XR</a>
-			<a class="nav-item nav-link" href="/food">Food</a>
-		</div>
-	</div>
-</nav>
 
 <div class="jumbotron jumbotron-fluid mb-0">
 	<div class="container">
@@ -43,8 +22,8 @@
 	<div class="row grid">
 		<div class="col-lg-6 col-md-6 col-sm-12 text-center p-0"> 
 			<div class="container p-0">
-				<a href="/blog"> <img src="/img/home/app-logo.png" class="img-fluid image" alt="app-logo"> </a>
-				<a href="/blog">
+				<a href="/travel-architect"> <img src="/img/home/app-logo.png" class="img-fluid image" alt="app-logo"> </a>
+				<a href="/travel-architect">
 					<div class="overlay">
 						<p class="text"> Travel Architect: iPhone App </p> 
 					</div>
@@ -53,8 +32,8 @@
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-12 text-center p-0"> 
 			<div class="container p-0">
-				<a href="/vr"> <img src="/img/home/hawaii-sunset.png" class="img-fluid image" alt="space-needle-fog"> </a>
-				<a href="/vr">
+				<a href="https://www.aerialpnw.com" target="_blank"> <img src="/img/home/hawaii-sunset.png" class="img-fluid image" alt="space-needle-fog"> </a>
+				<a href="https://www.aerialpnw.com" target="_blank">
 					<div class="overlay">
 						<p class="text aerial"> Aerial PNW LLC: Media Company </p>
 					</div>
@@ -65,19 +44,5 @@
 </div>
 
 
-<!-- Footer -->
-<footer class="footer text-center">
-	<span> &copy; 2018 Ian Zhang</span> &nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;
-	<a href="instagram.com/i.c.zhang/"> <i class="fa fa-instagram"></i> </a> &nbsp;
-	<a href="linkedin.com/in/ianchenzhang/"> <i class="fa fa-linkedin"></i> </a> &nbsp;
-	<a href="medium.com/@iczhang"> <i class="fa fa-medium"></i> </a> 
-</footer>
-
-<!-- Bootstrap 4 requires Tether -->
-<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-<!-- Bootstrap requires jQuery -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<!-- Custom scripts -->
-<script type="text/javascript" src="/js/home.js"></script>
+{% include footer.html %}
+{% include home-footer.html %}
