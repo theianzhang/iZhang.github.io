@@ -42,14 +42,58 @@ a:active {
     text-decoration: underline;
 }
 
-.sketchfab-container
+.hero
 {
-    max-height: 75vh;
+    width: 100vw;
 }
 
 .black
 {
     color: black;
+}
+
+.model-1
+{
+    max-height: 100vh;
+}
+
+.framework
+{
+    max-height: 100vh;
+    border-radius: 25px;
+}
+
+.body-text
+{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.style-eight 
+{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after 
+{
+    content: "Z";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #E9ECEF;
+}
+
+.background-color
+{
+    background-color: #E9ECEF;
 }
 
 .footer 
