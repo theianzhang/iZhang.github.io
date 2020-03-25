@@ -18,7 +18,7 @@ github_username: iZhang
 permalink: pretty
 markdown: kramdown
 theme: minima
-gems:
+plugins:
 - jekyll-feed
 - jemoji
 exclude:

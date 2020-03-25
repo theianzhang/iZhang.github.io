@@ -156,6 +156,8 @@ var locations =
 	}
 ]
 
+/*
+
 window.fbAsyncInit = function() 
 {
 	FB.init({
@@ -174,6 +176,8 @@ window.fbAsyncInit = function()
 		}, function(response){});
 	}
 };
+
+*/
 
 (function(d, s, id)
 {
