@@ -19,7 +19,8 @@ Gemfile.lock
 
 # Folders
 /vendor
-/posts/drafts/*
+/posts/drafts
+/posts/vr
 bbin/
 bin/
 coverage
