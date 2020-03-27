@@ -18,12 +18,9 @@ Gemfile.lock
 *~
 
 # Folders
-/vendor
 _posts/drafts
-_posts/vr
 bbin/
 bin/
-coverage
 gh-pages/
 pkg/
 test/dest
