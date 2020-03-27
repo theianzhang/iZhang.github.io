@@ -2,7 +2,7 @@
 title: chester-beatty
 date: 2016-08-04 00:00:00 Z
 categories:
-- travel
+- drafts
 comments: true
 ---
 

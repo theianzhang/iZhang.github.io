@@ -1,0 +1,27 @@
+#map
+{
+    padding: 1vh 1vw 1vh 1vw;
+    height: 66vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+}
+
+div.post-container
+{
+    padding: 1vh 1vw 1vh 1vw;
+    display: block;
+}
+
+div.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#hero-carousel 
+{
+   max-height: 66vh;
+   width: 100vw;
+   display: block;
+   overflow: hidden;
+}

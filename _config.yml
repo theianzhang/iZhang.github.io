@@ -9,10 +9,9 @@ collections:
     title: Uploads
     output: true
 email: 
-description: 'Travel, VR, Drones
-
-'
+description: 'Travel, VR, Drones'
 baseurl: ''
+excerpt_separator: <!--end_excerpt-->
 url: https://izhang.github.io
 github_username: iZhang
 permalink: pretty

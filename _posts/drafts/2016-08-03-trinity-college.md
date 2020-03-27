@@ -2,7 +2,7 @@
 title: trinity-college
 date: 2016-08-03 00:00:00 Z
 categories:
-- travel
+- drafts
 comments: true
 ---
 
