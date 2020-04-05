@@ -18,13 +18,13 @@ Gemfile.lock
 *~
 
 # Folders
-_posts/drafts
+_posts/drafts/
 bbin/
 bin/
 gh-pages/
 pkg/
-test/dest
-tmp/*
+tmp/
+scripts/
 
 # Node
 node_modules/
