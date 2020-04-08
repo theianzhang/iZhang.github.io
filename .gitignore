@@ -24,7 +24,7 @@ bin/
 gh-pages/
 pkg/
 tmp/
-scripts/
+scripts/Takeout/
 
 # Node
 node_modules/
