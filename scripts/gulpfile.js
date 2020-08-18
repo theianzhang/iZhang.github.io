@@ -4,7 +4,8 @@ var imageResize = require('gulp-image-resize');
 gulp.task('resize', function(done) {
   gulp.src('../img/home/*.{jpg,png,jpeg}')
     .pipe(imageResize({
-      percentage: 25, 
+      height: 10000,
+      width: 10000, 
       upscale : false
     }))
     .pipe(gulp.dest('../img/home'));
