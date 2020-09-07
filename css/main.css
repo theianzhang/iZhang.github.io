@@ -11,6 +11,7 @@ body
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 90px; /* Margin bottom by footer height */
+    background-color: #E9ECEF;
 }
 
 /* Small devices (landscape phones, 544px and up) */
@@ -22,34 +23,94 @@ body
         padding-right: 2vw;
         text-align: justify;
     }
+    .body-image {
+        width: 500px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  
+@media (min-width: 768px) 
+{  
     .body-text
     {
         padding-left: 5vw;
         padding-right: 5vw;
         text-align: justify;
     }
+    .body-image {
+        width: 700px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) 
+{ 
     .body-text
     {
         padding-left: 10vw;
         padding-right: 10vw;
         text-align: justify;
     }
+    .body-image {
+        width: 800px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
+@media (min-width: 1200px) 
+{  
     .body-text
     {
         padding-left: 15vw;
         padding-right: 15vw;
         text-align: justify;
     }
+    .body-image {
+        width: 800px;
+    }
+}
+
+
+/* Line Separator w/ Glyph */
+
+hr.style-eight 
+{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after 
+{
+    content: "Z";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #E9ECEF;
+}
+
+/* unvisited link */
+a:link {
+    color: #8A8A8A;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: underline;
 }
