@@ -16,29 +16,17 @@
 <link rel="stylesheet" type="text/css" href="/css/header.css">
 <link rel="stylesheet" type="text/css" href="/css/footer.css">
 
-<!-- Initialize map with location data -->
+<!-- Initialize map with location data 
 <div id="map">
 	<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
 	<script type="text/javascript" src="/js/travel-map.js"></script>
 </div>
+-->
 
-<!-- Code for posts -->
-<div class="post-container" id="posts-section">
-  <div class="row">
-    {% for post in site.posts offset:0 limit:30 %}
-    {% if post.categories contains 'travel' %}
-    <div class="col-lg-3 col-md-3 col-sm-3">
-      <div class="card">
-        <a href="{{ post.url }}"> <img class="card-img-top img-responsive" src="../img/{{ post.title }}.jpeg"> </a>
-        <div class="card-block">
-          <a href="{{ post.url }}"> <h3 class="card-title">{{ post.title }} </h3> </a>
-          <p class="card-text"> {{ post.excerpt }} </p>
-        </div>
-      </div>
-    </div>
-    {% endif %}
-    {% endfor %}
-  </div>
+<div class="jumbotron">
+  <h1 class="display-4">Hello, fellow traveler!</h1>
+  <p class="lead">One day, I'll update this page with writings from all the places I've been. That day is not today, but some day...</p>
+  <hr class="my-4">
 </div>
 
 <!-- Carousel -->
@@ -68,6 +56,28 @@
 		<span class="sr-only">Next</span>
 	</a>
 </div>
+
+<!-- Code for posts 
+<div class="post-container" id="posts-section">
+  <div class="row">
+    {% for post in site.posts offset:0 limit:30 %}
+    {% if post.categories contains 'travel' %}
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      <div class="card">
+        <a href="{{ post.url }}"> <img class="card-img-top img-responsive" src="../img/{{ post.title }}.jpeg"> </a>
+        <div class="card-block">
+          <a href="{{ post.url }}"> <h3 class="card-title">{{ post.title }} </h3> </a>
+          <p class="card-text"> {{ post.excerpt }} </p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+-->
+
+
 
 
 {% include footer.html %}
