@@ -1,0 +1,10 @@
+.video-container
+{
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+ul li
+{ 
+  margin-left: 20px;
+}
