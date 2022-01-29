@@ -19,7 +19,6 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
-- jemoji
 exclude:
 - Gemfile
 - Gemfile.lock
